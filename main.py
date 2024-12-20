@@ -5,7 +5,7 @@ import api
 app = FastAPI()
 @app.get("/get-message")
 async def read_root():
-    return {"Message": "Congrats! This is your first API!"}
+    return {"Message": "Congrats! This is your first API! Modified!"}
 
 @app.get("/get-linkedin-response")
 async def read_linkedin():
